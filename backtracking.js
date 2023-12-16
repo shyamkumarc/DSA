@@ -1,6 +1,9 @@
 // run `node index.js` in the terminal
 
-console.log(`Hello Node.js v${process.versions.node}!`);
+
+//QUESTION : find string "str" in the  matrix "arr" ( there exist 2 solutions)
+
+
 
 let arr = [
   ['g', 'h', 'i'],
@@ -10,7 +13,7 @@ let arr = [
 
 // variable to track all possible solutions
 let sols = [];
-
+ 
 let str = 'gbe';
 
 let val = false;
